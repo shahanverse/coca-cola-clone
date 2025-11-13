@@ -152,13 +152,13 @@ transition: 0.3s ease;
 .blue-gradient {
   height: 150vh;
 
-  background: linear-gradient(-190deg, #76e4e3, #faf9f6,rgb(209, 192, 11)); 
+  background: linear-gradient(190deg, #76e4e3, #faf9f6,rgb(209, 192, 11)); 
   background-size: 150% 150%;
-  animation:  5s ease-in-out infinite;
+  animation: gradientMove 10s ease-in-out infinite;
 }
 
 @keyframes gradientMove {
-  0% {
+  5% {
     background-position: 0% 50%;
   }
   50% {
